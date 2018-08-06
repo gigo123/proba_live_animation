@@ -381,10 +381,80 @@ ModelImporter:
     13700042: babochka
     13700044: babochka_9
     13700046: stuchka_7
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 0_anim_hair_6_Mtl
+    second: {fileID: 2100000, guid: 3edaefc0dcc67f840886b477dd3ad55d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anim_girl_1_Mtl
+    second: {fileID: 2100000, guid: a13af068f85f5ce41a915449a1e17160, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anim_girl_2
+    second: {fileID: 2100000, guid: a13af068f85f5ce41a915449a1e17160, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anim_girl_3_Mtl
+    second: {fileID: 2100000, guid: a13af068f85f5ce41a915449a1e17160, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anim_girl_5_Mtl
+    second: {fileID: 2100000, guid: a13af068f85f5ce41a915449a1e17160, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anim_girl_5_Mtl1
+    second: {fileID: 2100000, guid: a13af068f85f5ce41a915449a1e17160, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anim_girl_6_Mtl
+    second: {fileID: 2100000, guid: a13af068f85f5ce41a915449a1e17160, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anim_girl_7_Mtl
+    second: {fileID: 2100000, guid: a13af068f85f5ce41a915449a1e17160, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anim_girl_8_Mtl
+    second: {fileID: 2100000, guid: a13af068f85f5ce41a915449a1e17160, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anim_girl_8_Mtl1
+    second: {fileID: 2100000, guid: 3edaefc0dcc67f840886b477dd3ad55d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anim_hair_1_Mtl
+    second: {fileID: 2100000, guid: 3edaefc0dcc67f840886b477dd3ad55d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anim_hair_5_Mtl2
+    second: {fileID: 2100000, guid: 3edaefc0dcc67f840886b477dd3ad55d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anim_hair_7_Mtl
+    second: {fileID: 2100000, guid: 3edaefc0dcc67f840886b477dd3ad55d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_10_anim_hair_5_Mtl
+    second: {fileID: 2100000, guid: 3edaefc0dcc67f840886b477dd3ad55d, type: 2}
   materials:
     importMaterials: 1
-    materialName: 0
+    materialName: 1
     materialSearch: 1
     materialLocation: 1
   animations:
@@ -399,8 +469,8 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
+    importAnimatedCustomProperties: 1
+    importConstraints: 1
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
