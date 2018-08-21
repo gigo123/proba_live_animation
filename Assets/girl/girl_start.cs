@@ -28,7 +28,7 @@ public class girl_start : MonoBehaviour {
         {
             if (isTriger == false)
             {
-                this.transform.position = new Vector3(27, 0.8f, -7);
+                this.transform.position = new Vector3(27, 0, -7);
                 isTriger = true;
                 
             }

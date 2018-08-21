@@ -80,9 +80,9 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     - __dirty: 1
-    - _fade: -0.20499985
+    - _fade: -0.2699998
     - _nuber_wawes: 3.32
-    - _opacity: 1.1119999
+    - _opacity: 1.5119947
     - _power1: 5.59
     - _spin: 2.2
     m_Colors:
