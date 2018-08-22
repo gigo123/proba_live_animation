@@ -55,7 +55,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: 05a46040af6eba345a213e3289bf8676, type: 3}
+        m_Texture: {fileID: 2800000, guid: f7e96904e8667e1439548f0f86389447, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -80,9 +80,9 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     - __dirty: 1
-    - _fade: -0.2699998
+    - _fade: -0.2649998
     - _nuber_wawes: 3.32
-    - _opacity: 1.5119947
+    - _opacity: 1.5319945
     - _power1: 5.59
     - _spin: 2.2
     m_Colors:
