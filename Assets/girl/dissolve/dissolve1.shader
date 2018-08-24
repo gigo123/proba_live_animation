@@ -42,12 +42,27 @@ Shader "my\dissolve1"
 
 	void surf(Input i , inout SurfaceOutputStandard o)
 	{
-		if (_efectActiv < 0.1) {
+		if (_efectActiv == 0) {
 			o.Albedo = tex2D(_startTexture, i.uv_texcoord).xyz;
 			o.Alpha = 1;
+			float2 uv_Normal = i.uv_texcoord * _Normal_ST.xy + _Normal_ST.zw;
+			o.Normal = tex2D(_Normal, uv_Normal).xyz;
 			
 		};
-		if (_efectActiv > 0.1) {
+		if (_efectActiv > 0 && _efectActiv < 1) {
+			float2 uv_Albedo = i.uv_texcoord * _Albedo_ST.xy + _Albedo_ST.zw;
+			float3  sratTextE  = tex2D(_startTexture, i.uv_texcoord).xyz;
+			float3  disTexture  = tex2D(_Albedo, uv_Albedo).xyz;
+			float3 mixtexture =  sratTextE* (1-_efectActiv)  + (( disTexture *_efectActiv));
+			o.Albedo = mixtexture;
+			o.Alpha = 1;
+
+			float2 uv_Normal = i.uv_texcoord * _Normal_ST.xy + _Normal_ST.zw;
+			o.Normal = tex2D(_Normal, uv_Normal).xyz;
+
+		};
+
+		if (_efectActiv >0.98) {
 			float2 uv_Normal = i.uv_texcoord * _Normal_ST.xy + _Normal_ST.zw;
 			o.Normal = tex2D(_Normal, uv_Normal).xyz;
 			float2 uv_Albedo = i.uv_texcoord * _Albedo_ST.xy + _Albedo_ST.zw;
