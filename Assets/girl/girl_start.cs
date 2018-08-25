@@ -24,7 +24,14 @@ public class girl_start : MonoBehaviour {
         portal_material.SetFloat("_fade", fade);
         portal_material.SetFloat("_opacity", opaciry_val);
 
-     
+        girl_material.SetFloat("_efectActiv", startDissolv);
+        girl_hair_material.SetFloat("_efectActiv", startDissolv);
+
+        girl_material.SetFloat("_DissolveAmount", girl_fade);
+        girl_hair_material.SetFloat("_DissolveAmount", girl_fade);
+
+
+
     }
     // Update is called once per frame
     void Update()
@@ -91,7 +98,7 @@ public class girl_start : MonoBehaviour {
             //   girl_material = render_child.sharedMaterial;
 
             //  girl_material.SetTexture("_Albedo", m_MainTexture);
-            girl_fade += 0.005f;
+            girl_fade += 0.012f;
                 girl_material.SetFloat("_DissolveAmount", girl_fade);
             girl_hair_material.SetFloat("_DissolveAmount", girl_fade);
 
